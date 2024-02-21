@@ -1,52 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="indexstyle.css">
+    <title>Document</title>
 </head>
 <body>
+    <div class="maindiv">
+        <div class="Indiv">
+            <div class="success"><img src="frontend mentor\newsletter-sign-up-with-success-message-main\assets\images\icon-success.svg" alt="success"></div>
+            <h1>Thanks for subscribing!</h1>
 
-  <!-- Sign-up form start -->
+            <div class="jsdisplay"></div>
 
-  Stay updated!
 
-  Join 60,000+ product managers receiving monthly updates on:
+            <button class="btn">Dismiss message</button>
+        </div>
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+    </div>
 
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
+<script>
+    const button = document.querySelector("#Mybutton");
+    const div = document.querySelector(".jsdisplay");
+    const newElement = document.createElement("p");
+    const pContent = document.createTextNode("A verification email has been sent to your email click the link to confirm email.");
+    const fullparagraph = newElement.appendChild(pContent);
+    div.appendChild(fullparagraph);
+    
+</script>
 </html>

@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: rgba(64, 64, 162, 0.847);
+    font-family:Roboto;
+    background-color:rgb(36, 36, 97);
+    padding:6rem;
+    display:flex;
+    justify-content:center;
+}
+
+.maindiv{
+    background-color:rgb(188, 220, 248);
+    height:400px;
+    width:400px;
+    border:3px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+
+.Indiv{
+    padding-left:3rem;
+    padding-top:3rem;
+    padding-right:1rem;
+}
+
+
+.btn{
+    margin-top: 1rem;
+    border:3px;
+    border-radius:5px;
+    background-color: rgba(52, 52, 107, 0.608);
+    font-size: 15px;
+    height:55px;
+    width:220px;
+}
+
+.btn:hover{
+
+    background-color:rgb(213, 110, 127);
+}
